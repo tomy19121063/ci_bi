@@ -16,7 +16,7 @@ class Home extends CI_Controller {
     public function logout()
     {
         $this->session->session_destroy();
-        redirect('login');
+        redirect('home/logout');
     }
 
 }
